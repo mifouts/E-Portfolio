@@ -20,11 +20,32 @@ section {
     background-color: rgb(245, 245, 245);
 }
 
+.title {
+    font-size: 120px;
+    margin-bottom: 12px;
+    text-align: left;
+    line-height: 1;
+}
+
+.title__secondary, .purple {
+    color: #8a2be2 !important;
+}
+
 /* LANDING PAGE */
 
 #landing-page {
     min-height: 100vh;
 }
+
+.header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 1000px;
+}
+
 
 /* NAVIGATION */
 
