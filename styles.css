@@ -36,6 +36,10 @@ a {
     text-decoration: none;
 }
 
+button {
+    cursor: pointer;
+}
+
 .title {
     font-size: 120px;
     margin-bottom: 12px;
@@ -91,6 +95,16 @@ p {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+}
+
+.mail__btn {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    font-size: 32px;
+    background-color: #242424;
+    color: white;
 }
 
 
