@@ -31,6 +31,11 @@ section {
     color: #8a2be2 !important;
 }
 
+p {
+    line-height: 1.5;
+    font-size: 16px;
+}
+
 /* LANDING PAGE */
 
 #landing-page {
@@ -44,6 +49,12 @@ section {
     transform: translate(-50%, -50%);
     width: 100%;
     max-width: 1000px;
+}
+
+.header__para {
+    font-size: 24px;
+    line-height: 2;
+    max-width: 450px;
 }
 
 
