@@ -105,6 +105,9 @@ p {
     font-size: 32px;
     background-color: #242424;
     color: white;
+    position: absolute;
+    bottom: 32px;
+    right: 40px;
 }
 
 
