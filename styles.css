@@ -189,6 +189,10 @@ nav {
 
 /* PROJECTS */
 
+.project {
+    padding: 32px;
+}
+
 .section__title {
     text-align: center;
     font-size: 48px;
