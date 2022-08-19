@@ -267,6 +267,10 @@ nav {
 
 /* FOOTER */
 
+footer {
+    background-color: #242424;
+}
+
 .footer__logo--wrapper {
     display: flex;
     align-items: center;
@@ -277,6 +281,7 @@ nav {
 .footer__logo {
     width: 50px;
     height: 50px;
+    
 }
 
 .footer__social--list {
@@ -287,4 +292,15 @@ nav {
 
 .footer__social--link {
     padding: 0 32px;
+    color: white;
 }
+
+.footer__copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 24px;
+    font-weight: bold;
+    color: white;
+}
+
