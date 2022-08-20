@@ -388,6 +388,10 @@ footer {
 .modal__language {
     width: 25%;
     padding: 4px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .language__img {
