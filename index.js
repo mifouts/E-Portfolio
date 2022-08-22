@@ -13,10 +13,12 @@ function contact(event) {
         //).then(() => {
            // console.log('this worked')
        // })
-        const loading = document.querySelector('modal__overlay--loading');
-        const success = document.querySelector('modal__overlay--success');
-        loading.classList += " modal__overlay--visible"
+        const loading = document.querySelector('.modal__overlay--loading');
+        const success = document.querySelector('.modal__overlay--success');
+        loading.classList += " modal__overlay--visible";
         setTimeout(() => {
+            loading.classList.remove("modal__overlay--visible");
+            success.classList += " modal__overlay--visible";
             console.log('this worked')
         }, 200);
 
