@@ -110,6 +110,7 @@ input, textarea {
 
 textarea {
     resize: vertical;
+    margin-top: 8px;
 }
 
 label {
