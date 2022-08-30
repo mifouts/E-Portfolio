@@ -23,3 +23,7 @@ function contact(event) {
         }, 200);
 
 } 
+
+function toggleModal(){
+    
+}
