@@ -163,7 +163,7 @@ header {
 }
 
 .dark-theme #coding-logo {
-    filter: none;
+    filter: invert();
 }
 
 .dark-theme .scroll__icon {
@@ -171,7 +171,7 @@ header {
 }
 
 .dark-theme .scroll__icon:after {
-    border-color: white;
+    background-color: white;
 }
 
 
