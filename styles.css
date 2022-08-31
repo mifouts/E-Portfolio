@@ -162,6 +162,17 @@ header {
     background-color: #242424;
 }
 
+.dark-theme #coding-logo {
+    filter: none;
+}
+
+.dark-theme .scroll__icon {
+    border-color: white;
+}
+
+.dark-theme .scroll__icon:after {
+    border-color: white;
+}
 
 
 /* LANDING PAGE */

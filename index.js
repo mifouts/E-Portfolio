@@ -2,6 +2,8 @@
 // service_8bgbkyi
 // E709MmtjUQvYhM8xQ
 
+let contrastToggle = false;
+
 function toggleContrast() {
     contrastToggle = !contrastToggle;
     if (contrastToggle){
@@ -35,6 +37,7 @@ function contact(event) {
 } 
 
 let isModalOpen = false;
+
 function toggleModal(){
     if (isModalOpen) {
         isModalOpen = false;
