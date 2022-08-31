@@ -176,9 +176,6 @@ header {
     background-color: white;
 }
 
-.dark-theme .link__hover-effect--white:after {
-    background-color: black;
-}
 
 .dark-theme .mail__btn {
     background-color: white;
