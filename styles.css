@@ -706,3 +706,15 @@ width = 80vw
         width: 100%;
     }
 }
+
+@media (max-width: 480px){
+    .title{
+        font-size: 52px;
+    }
+    .header__para {
+        font-size: 18px;
+    }
+    .nav__link:first-child {
+        display: none;
+    }
+}
