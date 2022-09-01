@@ -232,9 +232,10 @@ header {
     font-size: 32px;
     background-color: #242424;
     color: white;
-    position: absolute;
+    position: fixed;
     bottom: 32px;
     right: 40px;
+    z-index: 100;
 }
 
 .scroll {
