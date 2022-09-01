@@ -3,8 +3,11 @@
 // E709MmtjUQvYhM8xQ
 
 let contrastToggle = false;
-
+let isModalOpen = false;
 const scaleFactor = 1/20;
+
+
+
 function moveBackground(event) {
     const shapes = document.querySelectorAll(".shape");
     const x = event.clientX * scaleFactor;
@@ -12,10 +15,11 @@ function moveBackground(event) {
     
     for (let i = 0; i < shapes.length; ++i) {
         const isOdd = i % 2 !== 0;
-        const oddInteger = isOdd ? -1 : 1;
-        shapes[i].style.transform = `translate(${x * oddInteger}px, ${y * oddInteger}px`;
+        const boolInt = isOdd ? -1 : 1;
+        shapes[i].style.transform = `translate(${x * boolInt}px, ${y * boolInt}px`;
 }
 }
+
 
 function toggleContrast() {
     contrastToggle = !contrastToggle;
@@ -26,6 +30,7 @@ function toggleContrast() {
         document.body.classList.remove("dark-theme");
     }
 }
+
 
 function contact(event) {
     event.preventDefault();
@@ -49,7 +54,6 @@ function contact(event) {
 
 } 
 
-let isModalOpen = false;
 
 function toggleModal(){
     if (isModalOpen) {
