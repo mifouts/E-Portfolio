@@ -362,6 +362,8 @@ nav {
     color: white;
     max-width: 550px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
