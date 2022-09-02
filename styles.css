@@ -355,7 +355,7 @@ nav {
 .project__description {
     position: absolute;
     top: 50%;
-    left: 30px;
+    left: 15%;
     opacity: 0;
     transition: opacity 300ms, transform 450ms ease;
     transform: translateY(100%);
