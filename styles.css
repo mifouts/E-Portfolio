@@ -336,6 +336,7 @@ nav {
     border-radius: 20px;
     box-shadow: 0 20px 80px 0 rgb(0, 0, 0, .45);
     overflow: hidden;
+    height: 500px;
 }
 
 .project__wrapper:hover .project__description {
@@ -392,6 +393,7 @@ nav {
 .project__description--para {
     margin: 16px 0;
 }
+
 
 /* FOOTER */
 
