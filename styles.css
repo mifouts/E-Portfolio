@@ -362,6 +362,7 @@ nav {
     color: white;
     max-width: 550px;
     text-align: center;
+    align-items: center;
 }
 
 .project__wrapper--bg {
