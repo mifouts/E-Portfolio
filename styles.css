@@ -700,6 +700,7 @@ width = 80vw
   line-height: 0; 
   text-decoration: none;
   cursor: pointer;
+  color: white;
 }
 
 .link_icon img {
