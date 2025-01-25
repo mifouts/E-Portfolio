@@ -695,19 +695,17 @@ width = 80vw
 
 .link_icon {
     display: inline-block;
-  width: 24px;
-  height: 24px;
-  line-height: 0; 
-  text-decoration: none;
-  cursor: pointer;
-  color: white;
+    width: 24px;
+    height: 24px;
+    line-height: 0; 
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .link_icon img {
     fill: white;
     width: 100%;
     height: 100%;
-    color: white;
 }
 
 
