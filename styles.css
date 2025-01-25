@@ -694,8 +694,8 @@ width = 80vw
 }
 
 .link_icon {
-    top: 80vh;
-    left: 80vw;
+    width: 24px;
+    height: 24px;
 }
 
 
