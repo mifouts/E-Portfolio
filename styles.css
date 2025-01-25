@@ -693,6 +693,10 @@ width = 80vw
     left: 80vw;
 }
 
+.link_icon {
+    top: 40px;
+}
+
 
 
 @media (max-width: 768px) {
